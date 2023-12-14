@@ -1,11 +1,11 @@
 :root {
   --main-color: rgb(40, 39, 39);
   --secondary-color: rgb(250, 250, 250);
-  --terciary-color: rgb(119, 119, 119);
+  --third-color: rgb(50, 49, 49);
 }
 
 nav {
-  background-color: var(--main-color);
+  background-color: var(--secondary-color);
   height: 110px;
   display: flex;
   justify-content: space-around;
@@ -14,7 +14,14 @@ nav {
     
  }
 
-.bacmiddle-part ul{
+.left-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+}
+
+.middle-part ul{
   list-style: none;
  }
 
@@ -30,20 +37,23 @@ nav {
 
 
 .middle-part ul a {
-  color: white;
+  color: var(--main-color);
 }
 
-.middle-part ul a:hover {
-  background-color: white;
-  color: red;
+.middle-part ul a:hover
+ {
+  background-color: var(--third-color);
+  color: var(--secondary-color);
 }
 
-.active {
-  background-color: #04AA6D;
+.middle-part ul a.active{
+  background-color: var(--main-color);
+  color: var(--secondary-color);
 }
 
 .search-bar {
   display: flex;
+ 
 }
 
 .search-icon {

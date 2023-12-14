@@ -1,0 +1,90 @@
+.hero-section {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  position: relative;
+}
+
+.hero-section img  {
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.6;
+}
+
+.title {
+  position: absolute;
+  width: 50%;
+  top: 10%;
+  left: 5%;
+  color: white;
+}
+
+.title button {
+  float: right;
+  margin-right: 15px;
+}
+
+.title h1,
+.title p:first-of-type
+{
+  margin-bottom: 1rem;
+}
+
+
+.main-galerija {
+  display: grid;
+  height: 500px;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  margin: 20px;
+}
+
+
+.main-galerija div{
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+  
+}
+
+.main-galerija div:first-of-type
+ {
+  grid-row: span 2;
+  grid-column: span 2;
+  background-image: url(../slike/galerija_ograda.webp);
+  background-size: contain;
+}
+
+.main-galerija div:nth-of-type(2) {
+  grid-row: span 3;
+  grid-column: span 4;
+  background-image: url(../slike/galerija_konstrukcija.webp);
+  background-size: cover;
+}
+
+.main-galerija div:nth-of-type(3){
+  grid-row: span 4;
+  grid-column: span 2;
+  background-image: url(../slike/galerija_zavarivanje.jpg);
+  background-size: cover;
+}
+
+.main-galerija div:nth-of-type(4) {
+  grid-row: span 3;
+  grid-column: span 2;
+  background-image: url(../slike/galerija_krov.webp);
+  background-size: cover;
+  background-position: 10;
+}
+
+.main-galerija div:nth-of-type(5) {
+  grid-row: span 3;
+  grid-column: span 2;
+  background-image: url(../slike/galerija_cnc.webp);
+  background-size: cover;
+}
+

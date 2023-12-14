@@ -4,6 +4,11 @@
   --terciary-color: rgb(119, 119, 119);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: var(--secondary-color);
   
@@ -19,6 +24,6 @@ nav,
 
 .main-container {
   background-color: var(--terciary-color);
-  height: 100vh;
+  
 }
 

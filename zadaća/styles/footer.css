@@ -6,12 +6,29 @@
 
 .footer-container {
   background-color: var(--main-color);
-  
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-    
+  height: 20vh;
  }
+
+ .footer-container ul {
+  list-style-type: none;
+ }
+
+ .navigacija, .inf, .contact {
+  margin: 10px;
+  display: inline-block;
+  
+ }
+
+ 
+
+.links {
+  display: flex;
+  align-items: center;
+  vertical-align: text-top;
+}
+
 
  .footer-container p {
   color: var(--secondary-color);
@@ -20,3 +37,4 @@
 .icon {
   width: 20px;
 }
+

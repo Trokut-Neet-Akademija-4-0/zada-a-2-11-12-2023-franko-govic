@@ -1,0 +1,54 @@
+.contact-card {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 30px;
+}
+
+
+.ccard-info {
+  width: 60%;
+  color: white;
+  text-align: center;
+}
+
+.ccard-contact {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.ccard-contact form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  
+}
+
+.ccard-contact form input,
+.ccard-contact form label,
+.ccard-contact form textarea,
+.ccard-contact form button {
+  margin-bottom: 0.3rem;
+}
+
+h4 {
+  margin-top: 10px;
+}
+
+.ccard-info {
+  background-image: url(../slike/max-larochelle-tD-SDlQxfsY-unsplash.webp);
+  background-size: cover;
+  
+}
+
+.ccard-info li {
+  list-style-type: none;
+}
+
+
