@@ -1,0 +1,57 @@
+:root {
+  --main-color: rgb(40, 39, 39);
+  --secondary-color: rgb(250, 250, 250);
+  --terciary-color: rgb(119, 119, 119);
+}
+
+nav {
+  background-color: var(--main-color);
+  height: 110px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+    
+ }
+
+.bacmiddle-part ul{
+  list-style: none;
+ }
+
+.middle-part li {
+  display: inline-block;
+  
+}
+
+.middle-part li {
+  display: inline-block;
+  
+}
+
+
+.middle-part ul a {
+  color: white;
+}
+
+.middle-part ul a:hover {
+  background-color: white;
+  color: red;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+.search-bar {
+  display: flex;
+}
+
+.search-icon {
+  vertical-align: middle;
+}
+
+.search:hover {
+  background-color: red;
+}
+
+

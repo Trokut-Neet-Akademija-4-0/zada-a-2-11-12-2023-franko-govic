@@ -1,0 +1,24 @@
+:root {
+  --main-color: rgb(40, 39, 39);
+  --secondary-color: rgb(250, 250, 250);
+  --terciary-color: rgb(119, 119, 119);
+}
+
+body {
+  background-color: var(--secondary-color);
+  
+}
+
+nav,
+.main-container,
+.footer-container {
+  max-width: 991px;
+  margin: 0 auto;
+  
+}
+
+.main-container {
+  background-color: var(--terciary-color);
+  height: 100vh;
+}
+
