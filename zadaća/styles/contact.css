@@ -1,32 +1,42 @@
+.main-container {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  width: 99%;
+  justify-content: center;
+  background-color: var(--main-color);
+  border-radius: 10px;
+}
+
+
 .contact-card {
-  width: 100%;
+  
   height: 70vh;
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin: 20px 30px;
 }
 
 
 .ccard-info {
-  width: 60%;
+  width: 100%;
   color: white;
   text-align: center;
+  
 }
 
 .ccard-contact {
-  width: 40%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  
+  margin-right: 150px;
 }
 
 .ccard-contact form {
   width: 100%;
   display: flex;
   flex-direction: column;
-  width: 90%;
+  
   
 }
 
@@ -44,11 +54,14 @@ h4 {
 .ccard-info {
   background-image: url(../slike/max-larochelle-tD-SDlQxfsY-unsplash.webp);
   background-size: cover;
+  text-align: center;
   
 }
 
 .ccard-info li {
   list-style-type: none;
+  display: inline-block;
+
 }
 
 

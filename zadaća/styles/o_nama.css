@@ -1,27 +1,40 @@
 .hero-section {
   width: 100%;
-  height: 50vh;
-  display: flex;
+  height: 60vh;
+  display: flex ;
   position: relative;
 }
 
 .hero-section img  {
   width: 100%;
   object-fit: cover;
-  opacity: 0.6;
+  
 }
 
 .title {
   position: absolute;
   width: 50%;
   top: 10%;
-  left: 5%;
+  right: 5%;
   color: white;
+  
+  text-align: right;
 }
 
 .title button {
   float: right;
-  margin-right: 15px;
+  margin: 1rem 2px;
+  border: none;
+  background-color: var(--main-color);
+  color: var(--secondary-color);
+  padding: 0.5rem;
+  border-radius: 2px;
+  font-weight: bold;
+  box-shadow: 0 0 2px rgba(79, 79, 79, 0.8);
+}
+
+.title button:hover {
+  transform: scale(1.1);
 }
 
 .title h1,
@@ -38,42 +51,43 @@
   grid-template-columns: repeat(6, 1fr);
   gap: 10px;
   margin: 20px;
+  
 }
 
 
 .main-galerija div{
-  background-color: aqua;
+  
   display: flex;
   justify-content: center;
   align-items: center;
-  
-
-  
+  border-radius: 5px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+   
 }
 
-.main-galerija div:first-of-type
+.main-galerija .div-1
  {
   grid-row: span 2;
   grid-column: span 2;
   background-image: url(../slike/galerija_ograda.webp);
-  background-size: contain;
+  background-size: cover;
 }
 
-.main-galerija div:nth-of-type(2) {
+.main-galerija .div-2 {
   grid-row: span 3;
   grid-column: span 4;
   background-image: url(../slike/galerija_konstrukcija.webp);
   background-size: cover;
 }
 
-.main-galerija div:nth-of-type(3){
+.main-galerija .div-3{
   grid-row: span 4;
   grid-column: span 2;
   background-image: url(../slike/galerija_zavarivanje.jpg);
   background-size: cover;
 }
 
-.main-galerija div:nth-of-type(4) {
+.main-galerija .div-4 {
   grid-row: span 3;
   grid-column: span 2;
   background-image: url(../slike/galerija_krov.webp);
@@ -81,10 +95,55 @@
   background-position: 10;
 }
 
-.main-galerija div:nth-of-type(5) {
+ .div-5 {
   grid-row: span 3;
   grid-column: span 2;
   background-image: url(../slike/galerija_cnc.webp);
   background-size: cover;
 }
 
+
+.onama-card {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: space-around;
+  text-align: justify;
+  margin: 2rem 2px ;
+  border-radius: 2px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+.text-part,
+.img-part {
+  width: 50%;
+  height: 100%;
+}
+
+
+
+.img-part-1 {
+  background-image: url(../slike/galerija_ograda.webp);
+  background-size: cover;
+}
+
+.text-part {
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+iframe {
+width:100%;
+margin: 2rem auto;
+opacity: 0.4;
+}
+
+iframe:hover {
+  opacity: 1;
+}
