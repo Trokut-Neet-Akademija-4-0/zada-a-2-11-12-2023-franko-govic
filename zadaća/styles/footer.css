@@ -27,7 +27,18 @@
   margin-top: 0.2rem;
 }
 
+
+.footer-container ul a {
+  text-decoration: none ;
+  color: white;
+}
+
+.footer-container ul a:hover {
+  text-decoration: underline;}
 .contact ul li {
   display: inline-block;
 }
 
+.footer-container img:hover {
+  transform: scale(1.1);
+}

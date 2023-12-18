@@ -1,6 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Afacad:wght@500&family=Rethink+Sans&family=Roboto&family=Space+Grotesk&display=swap');
-
+@import url("../styles/header.css");
+@import url("../styles/contact.css");
+@import url("../styles/footer.css");
+@import url("../styles/header.css");
+@import url("../styles/o_nama.css");
+@import url("../styles/usluge.css");
 
 :root {
   --main-color: rgb(40, 39, 39);

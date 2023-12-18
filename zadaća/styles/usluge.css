@@ -1,0 +1,205 @@
+.usluge {
+ 
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  
+}
+
+.usluge p{
+  margin-bottom: 1rem;
+}
+
+h2 {
+  padding: 1rem;
+  text-align: center;
+}
+
+.usluge  button {
+  
+  float: right;
+  background-color: transparent;
+  padding: 0.5em;
+  border: 1px solid white;
+  color: white;
+  margin-right: 0.2rem;
+  border-radius: 2px;
+  font-size: 1.1rem;
+  
+  
+}
+.usluge  button:hover {
+  transform: scale(1.1);
+background-color: white;
+color: rgb(19, 19, 19);
+}
+
+
+
+.usluge-kovane div,
+.usluge-tig div,
+.usluge-konstrukcije div,
+.usluge-limene div,
+.usluge-cnc div {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+  margin: 5px;
+  border-radius: 4px;
+  background-size: cover;
+  background-position: center;
+    
+}
+
+.usluge-kovane div:first-of-type {
+  grid-row: span 2;
+  grid-column: span 4;
+  background-image: url(../slike/vrata.webp);
+  background-size: cover;
+  background-position: center;
+ 
+  
+}
+
+.usluge div:hover {
+
+  grid-row: span 4; 
+  background-size: cover;
+
+  .usluge div:not:hover
+  {
+    visibility: hidden;
+  } 
+}
+
+.usluge-kovane div:nth-of-type(2) {
+  grid-row: span 4;
+  grid-column: span 4;
+  padding: 1rem;
+    
+}
+
+
+.usluge-kovane div:nth-of-type(3) {
+  grid-row: span 2;
+  grid-column: span 2;
+  background-image: url(../slike/galerija_ograda.webp);
+  background-size: cover;
+  background-position: center;
+   
+}
+.usluge-kovane div:nth-of-type(4) {
+  grid-row: span 4;
+  grid-column: span 2;
+  background-image: url(../slike/rukohvat.webp);
+  background-size: cover;
+  background-position: center;
+  
+  
+}
+
+
+
+.usluge-tig div:first-of-type {
+  grid-row: span 4;
+  grid-column: span 4;
+  padding: 1rem;
+
+  
+}
+
+.usluge-tig div:nth-of-type(2) {
+  background-image: url(../slike/galerija_zavarivanje.jpg);
+  grid-row: span 2;
+  grid-column: span 4;
+  
+}
+
+.usluge-tig div:nth-of-type(3) {
+  grid-row: span 2;
+  grid-column: span 4;
+  background-image: url(../slike/tig.webp);
+  filter: grayscale(0.9);
+   
+}
+
+
+.usluge-konstrukcije div:first-of-type {
+  grid-row: span 2;
+  grid-column: span 2;
+  background-image: url(../slike/galerija_konstrukcija.webp);
+  filter: grayscale(0.8);
+  
+}
+
+.usluge-konstrukcije div:nth-of-type(2) {
+  grid-row: span 2;
+  grid-column: span 2;
+  background-image: url(../slike/nadstrešnica.webp);
+  filter: grayscale(0.9);
+ 
+}
+
+.usluge-konstrukcije div:nth-of-type(3) {
+  grid-row: span 4;
+  grid-column: span 4;
+  padding: 1rem;
+}
+
+.usluge-konstrukcije div:nth-of-type(4) {
+  grid-row: span 2;
+  grid-column: span 4;
+  background-image: url(../slike/pergola.webp);
+  filter: grayscale(0.9);
+
+   
+}
+
+
+
+.usluge-limene div:first-of-type {
+  grid-row: span 4;
+  grid-column: span 4;
+  padding: 1rem;
+  
+}
+
+.usluge-limene div:nth-of-type(2) {
+  grid-row: span 2;
+  grid-column: span 4;
+  background-image: url(../slike/kucica.webp);
+  filter: grayscale(0.9);
+  
+}
+
+.usluge-limene div:nth-of-type(3) {
+  grid-row: span 2;
+  grid-column: span 4;
+  background-image: url(../slike/galerija_krov.webp);
+  
+  
+   
+}
+
+
+.usluge-cnc div:first-of-type {
+  grid-row: span 2;
+  grid-column: span 4;
+  background-image: url(../slike/galerija_cnc.webp);
+  filter:grayscale(0.7);
+  
+}
+
+.usluge-cnc div:nth-of-type(2) {
+  grid-row: span 4;
+  grid-column: span 4;
+  padding: 1rem;
+}
+
+.usluge-cnc div:nth-of-type(3) {
+  grid-row: span 2;
+  grid-column: span 4;
+  background-image: url(../slike/cncmetal.webp);
+  filter:grayscale(0.7);
+}
